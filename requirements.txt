@@ -1,13 +1,13 @@
+# ========================================
+# CORE DEPENDENCIES (Already Working)
+# ========================================
+
 # Database
 psycopg2-binary==2.9.9
 
 # API & HTTP
 requests==2.31.0
 aiohttp==3.9.1
-
-# Data Processing
-pandas==2.1.4
-numpy==1.26.2
 
 # Configuration
 python-dotenv==1.0.0
@@ -19,8 +19,56 @@ loguru==0.7.2
 # Data Validation
 pydantic==2.5.3
 
-# Scheduling (for later)
+# Scheduling
 schedule==1.2.0
 
-# Testing
+# ========================================
+# DATA PROCESSING
+# ========================================
+
+# NumPy - Already installed ✓
+numpy==1.26.2
+
+# Pandas - Comment out if installation fails
+# pandas==2.1.4
+
+# ========================================
+# MACHINE LEARNING
+# ========================================
+
+scikit-learn==1.3.2
+xgboost==2.0.3
+
+# ========================================
+# VISUALIZATION
+# ========================================
+
+streamlit==1.29.0
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# ========================================
+# UTILITIES
+# ========================================
+
+joblib==1.3.2
+tqdm==4.66.1
+typing-extensions==4.9.0
+
+# ========================================
+# TESTING
+# ========================================
+
 pytest==7.4.3
+pytest-cov==4.1.0
+
+# ========================================
+# OPTIONAL (Install separately when needed)
+# ========================================
+
+# TensorFlow - For LSTM models (install later)
+# pip install tensorflow==2.15.0
+
+# Pandas-TA - Technical indicators (install later)
+# pip install pandas-ta==0.3.14b0
